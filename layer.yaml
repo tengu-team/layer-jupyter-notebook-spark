@@ -1,6 +1,2 @@
-includes: ['layer:basic', 'layer:apt', 'interface:http', 'interface:spark']
-repo: git@github.com/sebastienpattyn93/charms.git
-options:
-  apt:
-    packages:
-       - 'python3-pip'
+includes: ['layer:jupyter-notebook', 'interface:spark']
+repo: git@github.com/IBCNServices/layer-jupyter-notebook-spark.git
