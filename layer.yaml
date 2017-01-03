@@ -1,2 +1,8 @@
 includes: ['layer:jupyter-notebook', 'interface:spark']
 repo: git@github.com/IBCNServices/layer-jupyter-notebook-spark.git
+# Ignore these files from all lower layers during `charm build`
+ignore:
+  - '.git'
+# Exclude these files from this layer during `charm build`
+exclude:
+  - '.git'
