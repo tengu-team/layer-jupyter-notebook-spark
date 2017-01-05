@@ -14,4 +14,3 @@ requires:
   spark:
     interface: spark
     scope: container
-series: ['trusty']

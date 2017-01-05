@@ -24,5 +24,5 @@ from jujubigdata.utils import run_as
 def install_apache_toree(spark): #pylint: disable=W0613
     hookenv.log("Installing apache toree")
     pip_install('toree')
-    run_as('root', 'jupyter', 'toree', 'install', '--interpreters=PySpark,Scala,SparkR,SQL')
+    #run_as('root', 'jupyter', 'toree', 'install', '--interpreters=PySpark,Scala,SparkR,SQL')
     set_state('apache-toree.installed')
